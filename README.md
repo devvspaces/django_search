@@ -31,7 +31,7 @@ Login to postgres shell
 
 Create new database with required permissions and extenstions. Remember to replace things like `<YOUR_DB_NAME>` with your own data and save somewhere. It will be used in django settings configuration.
 
-```sh
+```postgresql
 CREATE DATABASE <YOUR_DB_NAME>;
 CREATE USER <YOUR_DB_USER_NAME> WITH PASSWORD '<YOUR_DB_PASSWORD>';
 ALTER ROLE <YOUR_DB_USER_NAME> SET client_encoding TO 'utf8';
@@ -81,7 +81,7 @@ Move into project main directory
 
 Create .env file
 
-```sh
+```env
 DEBUG=True
 SECRET_KEY=<YOUR_SECRET_KEY>
 
@@ -99,11 +99,6 @@ Run server
 `python manage.py runserver`
 
  
-## Screenshots
-Use this space to give a little demo of your project. Attach important screenshots if applicable. This section is optional and might not be applicable in some cases.
-
-![Screenshots of projects](https://drive.google.com/file/d/1_H89nqPlrqg0jxqbHf9kxd-wLDmHEjB6/view?usp=sharing)
-
 ## Features
 * Single Full text search
 * Multiple Vectors and Query search
