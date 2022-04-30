@@ -6,9 +6,6 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/devvspaces/readme_template/issues)
 
 
-![](https://www.logistec.com/wp-content/uploads/2017/12/placeholder.png)
-
-
 ## Requirements  (Prerequisites)
 Tools and packages required to successfully install this project:
 * Postgres Database [Documentation](https://www.postgresql.org/docs/current/textsearch.html)
