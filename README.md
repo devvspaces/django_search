@@ -38,7 +38,7 @@ ALTER ROLE <YOUR_DB_USER_NAME> SET client_encoding TO 'utf8';
 ALTER ROLE <YOUR_DB_USER_NAME> SET default_transaction_isolation TO 'read committed';
 ALTER ROLE <YOUR_DB_USER_NAME> SET timezone TO 'UTC';
 GRANT ALL PRIVILEGES ON DATABASE <YOUR_DB_NAME> TO <YOUR_DB_USER_NAME>;
-\c django_search_db
+\c <YOUR_DB_NAME>
 CREATE EXTENSION pg_trgm;
 \q
 ```
